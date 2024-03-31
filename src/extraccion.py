@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Parámetros de conexión a Redshift
-dbname = os.getenv('NAME_DATABASE')
+dbname = os.getenv('NAME_DATABASE') 
 user = os.getenv('USER_DATABASE') 
 password = os.getenv('PASSWORD_DATABASE')
 host = os.getenv('HOST_DATABASE')  
